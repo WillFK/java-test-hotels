@@ -48,7 +48,7 @@ public class Main {
         System.out.println("Goodbye!");
     }
 
-    private static Query parseQuery(String queryString) throws ParseException {
+    public static Query parseQuery(String queryString) throws ParseException {
         //Regular: 16Mar2009(mon), 17Mar2009(tues), 18Mar2009(wed)
 
         String[] chuncks = queryString.split(": ");
